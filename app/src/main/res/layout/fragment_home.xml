@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/categories_title"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSurface"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
         android:layout_marginBottom="@dimen/activity_horizontal_margin" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/popular_title"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSurface"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
         android:layout_marginTop="@dimen/dp_16"

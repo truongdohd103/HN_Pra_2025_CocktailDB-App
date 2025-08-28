@@ -9,4 +9,7 @@
     <color name="black">#000000</color>
     <color name="gray">#808080</color>
     <color name="yellow_highlight">#FFFF00</color>
+
+    <!-- Header fixed colors (do not change with theme) -->
+    <color name="header_title_color">#000000</color>
 </resources>

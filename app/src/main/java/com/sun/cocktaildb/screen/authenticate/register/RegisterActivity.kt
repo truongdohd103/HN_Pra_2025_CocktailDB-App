@@ -7,6 +7,7 @@ import com.sun.cocktaildb.databinding.ActivityRegisterBinding
 import com.sun.cocktaildb.screen.authenticate.login.LoginActivity
 import com.sun.cocktaildb.utils.base.BaseActivity
 import com.sun.cocktaildb.utils.dialog.LoadingDialog
+import androidx.appcompat.app.AppCompatDelegate
 
 class RegisterActivity :
     BaseActivity(),
@@ -20,6 +21,7 @@ class RegisterActivity :
     }
 
     override fun initView() {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initEvent()

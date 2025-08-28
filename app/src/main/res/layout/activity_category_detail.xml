@@ -39,7 +39,7 @@
             android:fontFamily="@font/aclonica"
             android:gravity="center"
             android:text="@string/cocktails_title"
-            android:textColor="@color/black"
+            android:textColor="@color/header_title_color"
             android:textSize="@dimen/sp_32"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

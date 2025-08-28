@@ -11,6 +11,7 @@ import com.sun.cocktaildb.databinding.ActivityLoginBinding
 import com.sun.cocktaildb.screen.authenticate.register.RegisterActivity
 import com.sun.cocktaildb.screen.home.HomeScreenActivity
 import com.sun.cocktaildb.utils.base.BaseActivity
+import androidx.appcompat.app.AppCompatDelegate
 
 class LoginActivity :
     BaseActivity(),
@@ -20,6 +21,7 @@ class LoginActivity :
     private var binding: ActivityLoginBinding? = null
 
     override fun initView() {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         presenter = LoginPresenter()
         presenter.setView(this)
         binding = ActivityLoginBinding.inflate(layoutInflater)
